@@ -29,6 +29,7 @@
    <script defer type="module" src="data.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
+
    <!-- In your HTML head -->
    <link type="text/css" rel="stylesheet" media="screen" href="jquery-sakura.min.css" />
    <!-- End of your HTML body -->
@@ -2566,6 +2567,7 @@
       id="elementor-pro-frontend-js-before">var ElementorProFrontendConfig = { "ajaxurl": "https:\/\/google.com\/", "nonce": "ddadd42083", "urls": { "assets": "https:\/\/foreverr.id\/wp-content\/plugins\/elementor-pro\/assets\/", "rest": "https:\/\/foreverr.id\/f6018700d720c997933c088b3493981ffe50602e\/api\/foreverr\/" }, "i18n": { "toc_no_headings_found": "No headings were found on this page." }, "shareButtonsNetworks": { "facebook": { "title": "Facebook", "has_counter": true }, "twitter": { "title": "Twitter" }, "linkedin": { "title": "LinkedIn", "has_counter": true }, "pinterest": { "title": "Pinterest", "has_counter": true }, "reddit": { "title": "Reddit", "has_counter": true }, "vk": { "title": "VK", "has_counter": true }, "odnoklassniki": { "title": "OK", "has_counter": true }, "tumblr": { "title": "Tumblr" }, "digg": { "title": "Digg" }, "skype": { "title": "Skype" }, "stumbleupon": { "title": "StumbleUpon", "has_counter": true }, "mix": { "title": "Mix" }, "telegram": { "title": "Telegram" }, "pocket": { "title": "Pocket", "has_counter": true }, "xing": { "title": "XING", "has_counter": true }, "whatsapp": { "title": "WhatsApp" }, "email": { "title": "Email" }, "print": { "title": "Print" } }, "facebook_sdk": { "lang": "en_US", "app_id": "" }, "lottie": { "defaultAnimationUrl": "https:\/\/foreverr.id\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json" } };</script>
    <script src="js/7Uei9Mo2j31e.js" id="jquery-ui-core-js"></script> <!--   Unlimited Elements Scripts  -->
    <script defer src="js/K248jDYsoBTF.js"></script>
+
 </body>
 
 </html>

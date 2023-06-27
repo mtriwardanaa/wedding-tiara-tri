@@ -37,7 +37,7 @@ function getData() {
                     html += '<li class="comment even thread-even depth-1 saic-item-comment" id="saic-item-comment-352855" data-likes="0">\
                     <div id="saic-comment-352855" class="saic-comment saic-clearfix">\
                        <div class="saic-comment-avatar">\
-                          <img alt="" src="https://ui-avatars.com/api/?name='+item.nama+'&amp;rounded=true&amp;bold=true&amp;format=svg&amp;background='+randomColor+'&amp;color=fff" srcset="https://ui-avatars.com/api/?name=A&amp;rounded=true&amp;bold=true&amp;format=svg&amp;background='+randomColor+'&amp;color=fff 2x" class="avatar avatar-96 photo" height="96" width="96" decoding="async">\
+                          <img alt="" src="https://ui-avatars.com/api/?name='+item.nama+'&amp;rounded=true&amp;bold=true&amp;format=svg&amp;background='+randomColor+'&amp;color=fff" srcset="https://ui-avatars.com/api/?name='+item.nama+'&amp;rounded=true&amp;bold=true&amp;format=svg&amp;background='+randomColor+'&amp;color=fff 2x" class="avatar avatar-96 photo" height="96" width="96" decoding="async">\
                        </div>\
                        <!--.saic-comment-avatar-->\
                        <div class="saic-comment-content">\
