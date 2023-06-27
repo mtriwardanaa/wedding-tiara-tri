@@ -12,7 +12,6 @@ function getData() {
     }
 
     const digits = Math.floor(Math.random() * 9000000000) + 1000000000;
-    console.log(digits);
     fetch('./data.json?date='+digits)
     .then((response) => response.json())
         .then((json) => {
@@ -82,6 +81,23 @@ $(document).ready(function(){
     });
 });
 
+function AjaxCallWithPromise(data) {
+    return new Promise(function (resolve, reject) {
+        const objXMLHttpRequest = new XMLHttpRequest();
+        objXMLHttpRequest.onreadystatechange = function () {
+            if (objXMLHttpRequest.readyState === 4) {
+                if (objXMLHttpRequest.status == 200) {
+                    resolve(objXMLHttpRequest.responseText);
+                } else {
+                    reject('Error Code: ' +  objXMLHttpRequest.status + ' Error Message: ' + objXMLHttpRequest.statusText);
+                }
+            }
+        }
+        objXMLHttpRequest.open('GET', 'submit.php?data='+data);
+        objXMLHttpRequest.send();
+    });
+}
+
 function delay(time) {
     return new Promise(resolve => setTimeout(resolve, time));
 }
@@ -123,12 +139,8 @@ $(document).on('click', '#submit-95865', function () {
         "hadir": hadir
     }
 
-    const urlParams = new URLSearchParams(window.location.search);
-    const tamu = urlParams.get('to');
-
-    console.log(data);
-
-    fetch('./data.json')
+    const digits = Math.floor(Math.random() * 9000000000) + 1000000000;
+    fetch('./data.json?date='+digits)
         .then((response) => response.json())
         .then((json) => {
             json.unshift(data);
@@ -139,8 +151,19 @@ $(document).on('click', '#submit-95865', function () {
                     'Tersimpan',
                     'Terimakasih telah memberikan doa dan ucapan untuk kedua mempelai',
                     'success'
-                  ).then(() => {
-                    window.location.href = "submit.php?to="+tamu+"&data="+btoa(JSON.stringify(json));
+                ).then(() => {
+                    AjaxCallWithPromise(btoa(JSON.stringify(json))).then(
+                        data => { console.log('Success Response: ' + data) },
+                        error => { console.log(error) }
+                    );
+
+                    delay(1000).then(() => {
+                        getData();
+                    });
+                    
+                    $('.loader').hide();
+                    $('.input-keterangan').val('');
+                    $('.input-nama').val('').focus();
                   })
                 
             });
