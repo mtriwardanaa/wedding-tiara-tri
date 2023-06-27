@@ -89,7 +89,7 @@
          data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
          <div class="elementor-container elementor-column-gap-default">
             <div
-               class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-cde8fa4 coverx"
+               class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-cde8fa4 nices coverx"
                data-id="cde8fa4" data-element_type="column"
                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                <div class="elementor-widget-wrap elementor-element-populated">
@@ -478,7 +478,7 @@
          data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
          <div class="elementor-container elementor-column-gap-default">
             <div
-               class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-17a9a958"
+               class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-17a9a958 nices"
                data-id="17a9a958" data-element_type="column"
                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                <div class="elementor-widget-wrap elementor-element-populated">
@@ -855,7 +855,7 @@
          data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
          <div class="elementor-container elementor-column-gap-default">
             <div
-               class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4bf88a89"
+               class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4bf88a89 nices"
                data-id="4bf88a89" data-element_type="column"
                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                <div class="elementor-widget-wrap elementor-element-populated">
@@ -1269,7 +1269,7 @@
          data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
          <div class="elementor-container elementor-column-gap-default">
             <div
-               class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6aa22de4"
+               class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6aa22de4 nices"
                data-id="6aa22de4" data-element_type="column"
                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                <div class="elementor-widget-wrap elementor-element-populated">
@@ -1675,7 +1675,7 @@
          data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
          <div class="elementor-container elementor-column-gap-default">
             <div
-               class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-469eabd7"
+               class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-469eabd7 nices"
                data-id="469eabd7" data-element_type="column"
                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                <div class="elementor-widget-wrap elementor-element-populated">
@@ -2290,7 +2290,7 @@
          data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
          <div class="elementor-container elementor-column-gap-default">
             <div
-               class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-3bbdb5d1"
+               class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-3bbdb5d1 nices"
                data-id="3bbdb5d1" data-element_type="column">
                <div class="elementor-widget-wrap elementor-element-populated">
                   <div

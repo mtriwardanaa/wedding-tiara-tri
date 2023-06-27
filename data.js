@@ -77,7 +77,9 @@ function getData() {
 $(document).ready(function(){
     getData();
 
-    $('.elementor-element-cde8fa4').sakura();
+    $('.nices').sakura('start', {
+        fallSpeed: 3,        // Factor for petal fall speed         
+    });
 });
 
 function delay(time) {
