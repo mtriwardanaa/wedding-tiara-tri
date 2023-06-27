@@ -76,9 +76,14 @@ function getData() {
 $(document).ready(function(){
     getData();
 
-    $('.nices').sakura('start', {
-        fallSpeed: 3,        // Factor for petal fall speed         
-    });
+    // $('.nices').sakura('start', {
+    //     fallSpeed: 3,        // Factor for petal fall speed         
+    // });
+    new Sakura('.nices1');
+    new Sakura('.nices2');
+    new Sakura('.nices3');
+    new Sakura('.nices4');
+    new Sakura('.nices5');
 });
 
 function AjaxCallWithPromise(data) {
@@ -103,6 +108,7 @@ function delay(time) {
 }
 
 $(document).on('click', '#submit-95865', function () {
+    
     const nama = $('.input-nama').val();
     const keterangan = $('.input-keterangan').val();
     const hadir = $('.input-hadir').val();
@@ -118,7 +124,7 @@ $(document).on('click', '#submit-95865', function () {
         $('.input-keterangan').focus();
         return;
     }
-
+    $('#submit-95865').prop('disabled', true);
     $('.loader').show();
 
     const date = new Date();
@@ -164,6 +170,7 @@ $(document).on('click', '#submit-95865', function () {
                     $('.loader').hide();
                     $('.input-keterangan').val('');
                     $('.input-nama').val('').focus();
+                    $('#submit-95865').prop('disabled', false);
                   })
                 
             });

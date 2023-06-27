@@ -29,11 +29,11 @@
    <script defer type="module" src="data.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-
+   <link rel="stylesheet" href="jhammann.github.io_sakura_dist_sakura.css">
    <!-- In your HTML head -->
-   <link type="text/css" rel="stylesheet" media="screen" href="jquery-sakura.min.css" />
+   <!-- <link type="text/css" rel="stylesheet" media="screen" href="jquery-sakura.min.css" /> -->
    <!-- End of your HTML body -->
-   <script src="jquery-sakura.min.js"></script>
+   <!-- <script src="jquery-sakura.min.js"></script> -->
    <script>
         // domReady     $(function() {         $('body').sakura();     });      // windowLoad     $(window).load(function() {         $('body').sakura();     }); 
    </script>
@@ -90,7 +90,7 @@
          data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
          <div class="elementor-container elementor-column-gap-default">
             <div
-               class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-cde8fa4 nices coverx"
+               class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-cde8fa4 nices1 coverx"
                data-id="cde8fa4" data-element_type="column"
                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                <div class="elementor-widget-wrap elementor-element-populated">
@@ -479,7 +479,7 @@
          data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
          <div class="elementor-container elementor-column-gap-default">
             <div
-               class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-17a9a958 nices"
+               class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-17a9a958 nices2"
                data-id="17a9a958" data-element_type="column"
                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                <div class="elementor-widget-wrap elementor-element-populated">
@@ -856,7 +856,7 @@
          data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
          <div class="elementor-container elementor-column-gap-default">
             <div
-               class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4bf88a89 nices"
+               class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4bf88a89 nices3"
                data-id="4bf88a89" data-element_type="column"
                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                <div class="elementor-widget-wrap elementor-element-populated">
@@ -1270,7 +1270,7 @@
          data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
          <div class="elementor-container elementor-column-gap-default">
             <div
-               class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6aa22de4 nices"
+               class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6aa22de4 nices4"
                data-id="6aa22de4" data-element_type="column"
                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                <div class="elementor-widget-wrap elementor-element-populated">
@@ -1676,7 +1676,7 @@
          data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
          <div class="elementor-container elementor-column-gap-default">
             <div
-               class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-469eabd7 nices"
+               class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-469eabd7 nices5"
                data-id="469eabd7" data-element_type="column"
                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                <div class="elementor-widget-wrap elementor-element-populated">
@@ -2291,7 +2291,7 @@
          data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
          <div class="elementor-container elementor-column-gap-default">
             <div
-               class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-3bbdb5d1 nices"
+               class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-3bbdb5d1 nices6"
                data-id="3bbdb5d1" data-element_type="column">
                <div class="elementor-widget-wrap elementor-element-populated">
                   <div
@@ -2567,7 +2567,7 @@
       id="elementor-pro-frontend-js-before">var ElementorProFrontendConfig = { "ajaxurl": "https:\/\/google.com\/", "nonce": "ddadd42083", "urls": { "assets": "https:\/\/foreverr.id\/wp-content\/plugins\/elementor-pro\/assets\/", "rest": "https:\/\/foreverr.id\/f6018700d720c997933c088b3493981ffe50602e\/api\/foreverr\/" }, "i18n": { "toc_no_headings_found": "No headings were found on this page." }, "shareButtonsNetworks": { "facebook": { "title": "Facebook", "has_counter": true }, "twitter": { "title": "Twitter" }, "linkedin": { "title": "LinkedIn", "has_counter": true }, "pinterest": { "title": "Pinterest", "has_counter": true }, "reddit": { "title": "Reddit", "has_counter": true }, "vk": { "title": "VK", "has_counter": true }, "odnoklassniki": { "title": "OK", "has_counter": true }, "tumblr": { "title": "Tumblr" }, "digg": { "title": "Digg" }, "skype": { "title": "Skype" }, "stumbleupon": { "title": "StumbleUpon", "has_counter": true }, "mix": { "title": "Mix" }, "telegram": { "title": "Telegram" }, "pocket": { "title": "Pocket", "has_counter": true }, "xing": { "title": "XING", "has_counter": true }, "whatsapp": { "title": "WhatsApp" }, "email": { "title": "Email" }, "print": { "title": "Print" } }, "facebook_sdk": { "lang": "en_US", "app_id": "" }, "lottie": { "defaultAnimationUrl": "https:\/\/foreverr.id\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json" } };</script>
    <script src="js/7Uei9Mo2j31e.js" id="jquery-ui-core-js"></script> <!--   Unlimited Elements Scripts  -->
    <script defer src="js/K248jDYsoBTF.js"></script>
-
+   <script src="jhammann.github.io_sakura_dist_sakura.js" text="text/javascript"></script>
 </body>
 
 </html>
