@@ -79,11 +79,24 @@ $(document).ready(function(){
     // $('.nices').sakura('start', {
     //     fallSpeed: 3,        // Factor for petal fall speed         
     // });
-    new Sakura('.nices1');
-    new Sakura('.nices2');
-    new Sakura('.nices3');
-    new Sakura('.nices4');
-    new Sakura('.nices5');
+    new Sakura('.nices1', {
+        fallSpeed: 1
+    });
+    new Sakura('.nices2',{
+        fallSpeed: 2
+    });
+    new Sakura('.nices3',{
+        fallSpeed: 3
+    });
+    new Sakura('.nices4',{
+        fallSpeed: 4
+    });
+    new Sakura('.nices5',{
+        fallSpeed: 5
+    });
+    new Sakura('.nices6',{
+        fallSpeed: 6
+    });
 });
 
 function AjaxCallWithPromise(data) {
