@@ -11,7 +11,9 @@ function getData() {
         $('.nmt').text(tamu);
     }
 
-    fetch('./data.json')
+    const digits = Math.floor(Math.random() * 9000000000) + 1000000000;
+    console.log(digits);
+    fetch('./data.json?date='+digits)
     .then((response) => response.json())
         .then((json) => {
             if (json.length > 0) {
@@ -72,8 +74,11 @@ function getData() {
             }
         });
 }
+$(document).ready(function(){
+    getData();
 
-getData();
+    $('.elementor-element-cde8fa4').sakura();
+});
 
 function delay(time) {
     return new Promise(resolve => setTimeout(resolve, time));
@@ -128,8 +133,14 @@ $(document).on('click', '#submit-95865', function () {
             console.log(json);
             
             delay(1000).then(() => {
-                alert('Terimakasih telah memberikan doa dan ucapan untuk kedua mempelai');
-                window.location.href = "submit.php?to="+tamu+"&data="+btoa(JSON.stringify(json));
+                Swal.fire(
+                    'Tersimpan',
+                    'Terimakasih telah memberikan doa dan ucapan untuk kedua mempelai',
+                    'success'
+                  ).then(() => {
+                    window.location.href = "submit.php?to="+tamu+"&data="+btoa(JSON.stringify(json));
+                  })
+                
             });
         });
 })

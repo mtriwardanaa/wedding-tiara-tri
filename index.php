@@ -3,6 +3,9 @@
 
 <head>
    <meta charset="UTF-8">
+   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+   <meta http-equiv="Pragma" content="no-cache" />
+   <meta http-equiv="Expires" content="0" />
    <link rel="stylesheet" media="print" onload="this.onload=null;this.media='all';" id="ao_optimized_gfonts"
       href="https://fonts.googleapis.com/css?family=Inter%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CPoppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CCinzel%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CGreat+Vibes%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CWork+Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CElsie+Swash+Caps%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CCinzel+Decorative%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CYeseva+One%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CElsie%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CAssistant%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CJura%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=swap">
    <link media="all" href="css/EGM261JQC2ma.css" rel="stylesheet">
@@ -23,42 +26,52 @@
    <script src="js/QCFFWvXbV1a7.js" id="jquery-js"></script>
    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
    <link rel="stylesheet" href="snow.css">
+   <script defer type="module" src="data.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+   <!-- In your HTML head -->
+   <link type="text/css" rel="stylesheet" media="screen" href="jquery-sakura.min.css" />
+   <!-- End of your HTML body -->
+   <script src="jquery-sakura.min.js"></script>
+   <script>
+        // domReady     $(function() {         $('body').sakura();     });      // windowLoad     $(window).load(function() {         $('body').sakura();     }); 
+   </script>
 </head>
 
 <body
    class="demo-template-default single single-demo postid-95865 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-95865">
-   <div class="snowflakes" aria-hidden="true">
+   <!-- <div class="snowflakes" aria-hidden="true">
       <div class="snowflake">
-         ❅
+         🌸
       </div>
       <div class="snowflake">
-         ❅
+         🌸
       </div>
       <div class="snowflake">
-         ❅
+         🌸
       </div>
       <div class="snowflake">
-         ❅
+         🌸
       </div>
       <div class="snowflake">
-         ❅
+         🌸
       </div>
       <div class="snowflake">
-         ❅
+         🌸
       </div>
       <div class="snowflake">
-         ❅
+         🌸
       </div>
       <div class="snowflake">
-         ❅
+         🌸
       </div>
       <div class="snowflake">
-         ❅
+         🌸
       </div>
       <div class="snowflake">
-         ❅
+         🌸
       </div>
-   </div>
+   </div> -->
    <div id="loader-script">
       <div id="loader" class="loader-active">
          <div class="thecube" id="loading">
@@ -2553,7 +2566,6 @@
       id="elementor-pro-frontend-js-before">var ElementorProFrontendConfig = { "ajaxurl": "https:\/\/google.com\/", "nonce": "ddadd42083", "urls": { "assets": "https:\/\/foreverr.id\/wp-content\/plugins\/elementor-pro\/assets\/", "rest": "https:\/\/foreverr.id\/f6018700d720c997933c088b3493981ffe50602e\/api\/foreverr\/" }, "i18n": { "toc_no_headings_found": "No headings were found on this page." }, "shareButtonsNetworks": { "facebook": { "title": "Facebook", "has_counter": true }, "twitter": { "title": "Twitter" }, "linkedin": { "title": "LinkedIn", "has_counter": true }, "pinterest": { "title": "Pinterest", "has_counter": true }, "reddit": { "title": "Reddit", "has_counter": true }, "vk": { "title": "VK", "has_counter": true }, "odnoklassniki": { "title": "OK", "has_counter": true }, "tumblr": { "title": "Tumblr" }, "digg": { "title": "Digg" }, "skype": { "title": "Skype" }, "stumbleupon": { "title": "StumbleUpon", "has_counter": true }, "mix": { "title": "Mix" }, "telegram": { "title": "Telegram" }, "pocket": { "title": "Pocket", "has_counter": true }, "xing": { "title": "XING", "has_counter": true }, "whatsapp": { "title": "WhatsApp" }, "email": { "title": "Email" }, "print": { "title": "Print" } }, "facebook_sdk": { "lang": "en_US", "app_id": "" }, "lottie": { "defaultAnimationUrl": "https:\/\/foreverr.id\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json" } };</script>
    <script src="js/7Uei9Mo2j31e.js" id="jquery-ui-core-js"></script> <!--   Unlimited Elements Scripts  -->
    <script defer src="js/K248jDYsoBTF.js"></script>
-   <script defer type="module" src="data.js"></script>
 </body>
 
 </html>
