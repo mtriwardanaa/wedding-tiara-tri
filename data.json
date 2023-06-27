@@ -1,10 +1,1 @@
-[
-    {
-        "id": 1,
-        "title": "Hello World"
-    },
-    {
-        "id": 2,
-        "title": "Hello World 2"
-    }
-]
+[{"nama":"Dani","keterangan":"Selamat ya, Semoga lancar sampe hari H","waktu":"28/6/2023 10:17","hadir":"ya"},{"nama":"arif","keterangan":"Selamat utk kalian berdua yaa.. Jaga kesehatan. Lancar sampe hari h. Maaf nda bs dtg ya","waktu":"28/6/2023 08:41","hadir":"tidak"},{"nama":"Indri","keterangan":"Happy Wedding Tiara dan Tri, Bahagia selalu","waktu":"17/6/2023 18:56","hadir":"ragu"}]
